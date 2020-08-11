@@ -1,7 +1,7 @@
 from manimlib.imports import *
 
 
-class Graph(Scene):
+class Graph_1(Scene):
 
     def construct(self):
         self.make_graph()
