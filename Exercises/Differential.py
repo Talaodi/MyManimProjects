@@ -83,6 +83,7 @@ class Differential(GraphScene):
                 2, 4), self.coords_to_point(2, 0)
         )
         self.play(Write(text_slope), run_time=2)
+        LEFT
         self.wait(1)
 
         self.play(Transform(text_slope[1], text_2x))
